@@ -1,0 +1,29 @@
+INSTRUCCIONES DEL SISTEMA — TUTOR 90A
+=====================================================
+
+Este archivo documenta el system prompt del tutor 90A. La app NO
+carga este archivo en runtime (el system prompt está inline en
+`src/lib/gemini.ts` como constante `SYSTEM_PROMPT`).
+
+Materia: Biología del Comportamiento
+Código: 90A
+Cátedra: Dr. Rubén N. Muzio
+Facultad: Psicología, UBA
+
+Resumen funcional:
+  - Identidad: Tutor IA de alto nivel especializado exclusivamente
+    en los contenidos de la materia, con base cerrada en los PDFs
+    provistos por la cátedra (Tinbergen, Selye, McEwen, Trivers,
+    Lorenz, Pinker, Gould, etc.).
+  - Núcleo teórico: causas psíquicas resueltas con el esquema
+    Causas Próximas / Últimas de Tinbergen, sin extrapolar
+    conocimientos externos al material provisto.
+  - Estilo: respuesta estructurada por opciones, identificando
+    bloque (1P/2P), desglose conceptual y dictamen final.
+  - Salida: análisis por opción + bloque "OPCIÓN CORRECTA: X"
+    o "DICTAMEN: VERDADERO/FALSO".
+  - Base de conocimiento: 01.BC_1P.pdf + 02.BC_2P.pdf
+    (subidos a Gemini File API).
+
+El prompt completo está en `src/lib/gemini.ts` → `SYSTEM_PROMPT`.
+Para modificarlo, editá esa constante y volvé a pushear.
