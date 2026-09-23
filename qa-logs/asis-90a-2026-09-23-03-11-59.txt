@@ -1,0 +1,14 @@
+asis-90a · 23/9/2026, 03:11:59 · 1:19
+============================================================
+
+PREGUNTA:
+La h2, heredabilidad en sentido estricto para el rasgo de neuroticismo es de 0.4 para la población adulta en zonas rurales. Esto implica: 1, que todos los adultos de zonas rurales tienen una probabilidad del 40% de poseer altos puntajes en la escala de neuroticismo. 2, que todos los adultos de zonas rurales tienen una probabilidad del 60% de poseer altos puntajes en la escala de neuroticismo. 3, que las diferencias en el rasgo de neuroticismo en adultos de zonas rurales son atribuidas en un 60% al ambiente. 4, que las diferencias en la distribución del neuroticismo en adultos de zonas rurales son atribuidas en un 60% a los genes. 5, ninguna es correcta.
+
+RESPUESTA:
+Opción correcta: 3. que las diferencias en el rasgo de neuroticismo en adultos de zonas rurales son atribuidas en un 60% al ambiente.
+
+Por qué las otras son incorrectas: Se descartan las demás opciones porque la heredabilidad en sentido estrito ($h^2$) es un parámetro estrictamente poblacional que estima la proporción de la varianza fenotípica total ($V_F$) explicada por la varianza genética aditiva ($V_G$), por lo que jamás debe aplicarse como un porcentaje individual ni como un determinismo biológico absoluto. Bajo el Modelo de los Caminos y la genética cuantitativa, la varianza fenotípica se compone por la suma de los componentes genéticos y ambientales ($V_F = V_G + V_A$). Por ende, si el cálculo de heredabilidad para el rasgo de neuroticismo arroja un valor de $h^2 = 0.40$ (40%), el porcentaje restante hasta completar la varianza total de la población corresponde al componente ambiental ($1 - h^2 = 0.60$ o 60%).
+
+Asimismo, los modelos de genética del comportamiento aclaran que un valor de heredabilidad no es un valor fijo e inmutable para la especie, sino que se circunscribe exclusivamente a la muestra y al contexto ecológico evaluado. Al comparar poblaciones expuestas a ambientes disímiles, los factores de correlación y de interacción gen-ambiente pueden modificar las estimaciones finales. Por esta razón, afirmar que el 40% de la variabilidad observada se debe a los genes implica directamente que el 60% de las diferencias individuales en dicho rasgo de personalidad dentro de esa población específica responde a variaciones en las experiencias ambientales.
+
+============================================================
