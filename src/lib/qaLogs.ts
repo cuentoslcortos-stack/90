@@ -44,8 +44,35 @@ function env(key: string): string {
   }
 }
 
+/**
+ * Token de GitHub para el guardado automático de Q&A.
+ *
+ * Resolución (en orden de prioridad):
+ *   1. localStorage "gem-github-token" — lo que el usuario pegó en el
+ *      panel de Configuración de la app (clave preferida, NUNCA queda
+ *      en el bundle JS público porque localStorage es por origen).
+ *   2. VITE_GITHUB_TOKEN — variable de entorno legacy. ⚠️ Esta SÍ se
+ *      compila en el JS público, así que solo es aceptable en builds
+ *      locales que no se deployan. Recomendamos no usarla: poné el
+ *      token en el panel de Configuración.
+ *
+ * Si ninguno está, el guardado automático queda desactivado en
+ * silencio (la app sigue funcionando normal).
+ */
+function readGithubToken(): string {
+  try {
+    const fromLs = (typeof localStorage !== "undefined"
+      ? localStorage.getItem("gem-github-token")
+      : null)?.trim();
+    if (fromLs) return fromLs;
+  } catch {
+    /* sin localStorage: cae al env */
+  }
+  return env("VITE_GITHUB_TOKEN");
+}
+
 export function isQALogEnabled(): boolean {
-  const token = env("VITE_GITHUB_TOKEN");
+  const token = readGithubToken();
   const repo = env("VITE_GITHUB_REPO") || "carlox2/asis-90a";
   if (!token || !repo.includes("/")) return false;
   if (env("VITE_QA_LOGS_ENABLED") === "0") return false;
@@ -123,7 +150,7 @@ function buildQALogBody(p: QALogPayload, now = new Date()): string {
 export async function saveQALogBackground(payload: QALogPayload): Promise<void> {
   try {
     if (!payload?.answer?.trim()) return;
-    const token = env("VITE_GITHUB_TOKEN");
+    const token = readGithubToken();
     const repo = env("VITE_GITHUB_REPO") || "carlox2/asis-90a";
     if (!token || !repo.includes("/")) return; // no configurado → silencioso
 

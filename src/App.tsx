@@ -214,6 +214,14 @@ export default function App() {
   const [keyInput, setKeyInput] = useState("");
   const [showKey, setShowKey] = useState(false);
   const [keySavedFlash, setKeySavedFlash] = useState(false);
+  // Token de GitHub para el guardado automático de Q&A (segundo plano).
+  // Vive SOLO en este navegador (localStorage); NUNCA se mete al bundle.
+  const [savedGithubToken, setSavedGithubToken] = useState(
+    () => store.get("gem-github-token") ?? ""
+  );
+  const [githubTokenInput, setGithubTokenInput] = useState("");
+  const [showGithubToken, setShowGithubToken] = useState(false);
+  const [githubTokenSavedFlash, setGithubTokenSavedFlash] = useState(false);
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [inputDevices, setInputDevices] = useState<AudioDevice[]>([]);
@@ -1105,6 +1113,14 @@ export default function App() {
     setTimeout(() => setKeySavedFlash(false), 1800);
   }, [keyInput]);
 
+  const saveGithubToken = useCallback(() => {
+    const clean = githubTokenInput.trim();
+    setSavedGithubToken(clean);
+    store.set("gem-github-token", clean);
+    setGithubTokenSavedFlash(true);
+    setTimeout(() => setGithubTokenSavedFlash(false), 1800);
+  }, [githubTokenInput]);
+
   const playHistoryItem = useCallback(
     (item: HistoryItem) => {
       // Sanitiza por si el item es antiguo (guardado antes del fix
@@ -1464,10 +1480,48 @@ export default function App() {
             </div>
             <p className={`mt-2 text-[11px] leading-relaxed ${keySavedFlash ? "text-[#10b981]" : "text-[#86efac]"}`}>
               {keySavedFlash
-                ? "Llave guardada en este navegador âœ“"
+                ? "Llave guardada en este navegador ✓"
                 : keyConfigured
-                  ? "Usando la llave guardada en este navegador. También puedes fijarla en la constante GEMINI_API_KEY."
-                  : "Sin llave aún: pégala arriba o edita la constante GEMINI_API_KEY en src/lib/gemini.ts."}
+                  ? "Usando la llave guardada en este navegador. La app nunca la sube al bundle: solo vive acá."
+                  : "Sin llave aún: pegala arriba. Queda guardada solo en este navegador."}
+            </p>
+
+            <label className="mt-4 mb-1 block font-mono-gem text-[10px] uppercase tracking-widest text-[#86efac]" htmlFor="gem-github-token">
+              API Key de GitHub <span className="text-[#86efac]/60">(opcional · para guardar Q&amp;A)</span>
+            </label>
+            <div className="flex gap-2">
+              <div className="relative min-w-0 flex-1">
+                <input
+                  id="gem-github-token"
+                  type={showGithubToken ? "text" : "password"}
+                  value={githubTokenInput}
+                  onChange={(e) => setGithubTokenInput(e.target.value)}
+                  placeholder={savedGithubToken ? "•••••••• (guardada)" : "ghp_… o github_pat_…"}
+                  className="w-full rounded-lg border border-[#166534] bg-[#122a1d] px-3 py-2 pr-10 font-mono-gem text-xs text-[#f0fdf4] placeholder:text-[#86efac]/50 outline-none transition-colors focus:border-[#047857]/60"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowGithubToken((s) => !s)}
+                  aria-label={showGithubToken ? "Ocultar token" : "Mostrar token"}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 text-[#86efac] hover:text-[#f0fdf4]"
+                >
+                  {showGithubToken ? <EyeOffIcon size={16} /> : <EyeIcon size={16} />}
+                </button>
+              </div>
+              <button
+                type="button"
+                onClick={saveGithubToken}
+                className="ctrl-btn rounded-lg border border-[#047857]/50 bg-[#047857]/10 px-3.5 py-2 text-xs font-semibold text-[#047857] hover:bg-[#047857]/20"
+              >
+                Guardar
+              </button>
+            </div>
+            <p className={`mt-2 text-[11px] leading-relaxed ${githubTokenSavedFlash ? "text-[#10b981]" : "text-[#86efac]"}`}>
+              {githubTokenSavedFlash
+                ? "Token guardado en este navegador ✓"
+                : savedGithubToken
+                  ? "Token listo: cada respuesta se guarda como .txt en qa-logs/ (segundo plano, silencioso)."
+                  : "Sin token: el guardado automático queda desactivado (la app sigue funcionando). Usá un PAT fine-grained limitado a este repo, Contents R/W."}
             </p>
 
             <div className="mt-4 grid grid-cols-2 gap-2">
