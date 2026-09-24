@@ -1,0 +1,12 @@
+asis-90a · 24/9/2026, 09:59:20 · 0:47
+============================================================
+
+PREGUNTA:
+El HPA se encuentra: 1. Hiperactivado en estrés y depresión e hipoactivado en anorexia. 2. Hiperactivado en estrés, depresión y anorexia. 3. Hiperactivado en estrés y depresión, sin alteraciones en anorexia. 4. Hipoactivado en estrés y depresión e hiperactivado en anorexia. 5. Ninguna de las anteriores.
+
+RESPUESTA:
+1. Opción correcta: 2. hiperactivado en estrés, depresión y anorexia.
+
+2. Por qué las otras son incorrectas: Se descartan las demás opciones pues la evidencia neuroendócrina expuesta por Daneri y Muzio demuestra de manera contundente que el eje hipotálamo-pituitario-adrenal (HPA) no se encuentra inhibido ni normorregulado, sino profundamente hiperactivado tanto en el estrés crónico como en el trastorno depresivo mayor y en la anorexia nerviosa. En estas tres condiciones fisiopatológicas, el hipotálamo incrementa la secreción del factor liberador de corticotrofina (CRH), estimulando a la adenohipófisis para la liberación de adrenocorticotrofina (ACTH), la cual actúa sobre la corteza adrenal induciendo una producción desmedida de glucocorticoides. Esto genera un estado característico de hipercortisolemia plasmática sostenida que altera el funcionamiento homeostático general. Asimismo, en los pacientes que cursan con depresión mayor o con anorexia nerviosa, se evidencia una falla sistemática en los mecanismos de retroalimentación negativa que normalmente frenan la cascada endocrina, lo cual se comprueba clínicamente mediante el test de supresión por dexametasona (DST), donde la administración de este corticoide sintético no logra inhibir la síntesis de cortisol circundante debido a la dessensibilización y daño estructural en los receptores para glucocorticoides presentes en el hipocampo. Por consiguiente, calificar al eje HPA como hipoactivo o señalar que su alteración es exclusiva de una sola de estas patologías resulta teóricamente erróneo e incompatible con los hallazgos experimentales de la psicobiología.
+
+============================================================
