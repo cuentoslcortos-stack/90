@@ -1,0 +1,12 @@
+asis-90a · 24/9/2026, 10:19:22 · 0:33
+============================================================
+
+PREGUNTA:
+En la esquizofrenia, ¿los estudios con tomografía computada y resonancia magnética mostraron ventrículos laterales adelgazados, ventrículos laterales adelgazados y aumento del volumen hipocampal? Opción 1, verdadero; 2, falso.
+
+RESPUESTA:
+1. Calificación: Falso
+
+2. Justificación: En la esquizofrenia, las investigaciones neuroanatómicas mediante tomografía computada y resonancia magnética muestran consistentemente un agrandamiento o dilatación de los ventrículos laterales y un achicamiento o reducción del volumen de estructuras límbicas como el hipocampo y la amígdala. Adicionalmente, los estudios de tomografía por emisión de positrones revelan patrones de hipofrontalidad, evidenciados por un menor flujo sanguíneo cerebral y un menor metabolismo de la glucosa en la corteza prefrontal durante la realización de tareas cognitivas. A nivel neuroquímico, la hipótesis dopaminérgica sostiene un concepto dual que postula un déficit de dopamina en la corteza prefrontal asociado a la presencia de síntomas negativos como alogía, abulia y aplanamiento afectivo junto con un exceso de dopamina en las vías subcorticales del sistema límbico, el cual resulta directamente responsable de la manifestación de síntomas positivos tales como alucinaciones auditivas, ideas delirantes y conducta catatónica. La efectividad de los psicofármacos antipsicóticos atípicos radica precisamente en su capacidad para bloquear fuertemente los receptores serotoninérgicos y modular la liberación dopaminérgica en estas regiones diferenciadas del encéfalo, atenuando la sintomatología global del neurodesarrollo.
+
+============================================================
