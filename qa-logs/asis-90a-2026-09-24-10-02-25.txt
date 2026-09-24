@@ -1,0 +1,12 @@
+asis-90a · 24/9/2026, 10:02:25 · 1:31
+============================================================
+
+PREGUNTA:
+Una joven se encuentra eligiendo su vestido de novia. Está eligiendo entre uno de gasa sintética que sale 500 dólares versus uno de gasa natural que sale 700 dólares. Cuando estaba a punto de comprar el de gasa sintética de 500 dólares, la vendedora le muestra uno de gasa natural y diseño italiano de 2000 dólares. La joven finalmente cambia de opinión y elige el de gasa natural de 700 dólares. El cambio en el comportamiento de la joven ¿puede explicarse por 1) efecto de dominancia asimétrica asimétrica, 2) efecto de arrastre, 3) preferencia estado dependiente, 4) maximización de una utilidad absoluta, 5) ninguno de los anteriores.
+
+RESPUESTA:
+1. Opción correcta: 1. Efecto de dominancia asimétrica.
+
+2. Por qué las otras son incorrectas: Se descartan de manera categórica las opciones restantes porque la introducción deliberada de una tercera alternativa claramente inferior o dominada por una de las opciones originales modifica la preferencia final del sujeto, violando el principio normativo de independencia. Según los desarrollos teóricos de Tversky y Kahneman, expuestos en el marco conceptual de la cátedra por Squillace, las elecciones no se estructuran mediante la evaluación de magnitudes absolutas ni por la maximización estricta de la utilidad esperada formulada por Bernoulli. En su lugar, los individuos utilizan atajos cognitivos o heurísticos regulados por el Sistema 1, el cual produce juicios intuitivos, automáticos y rápidos que operan sin esfuerzo consciente. Cuando se evalúan alternativas multicriterio dimensión por dimensión, la adición de una opción irrelevante o no elegible altera el marco de referencia visual y cognitivo, destacando las virtudes de la opción que la domina por completo. De este modo, la arquitectura de la decisión demuestra que las preferencias humanas son contextualmente dependientes y vulnerables a manipulaciones del entorno, impidiendo que el monitoreo habitualmente laxo del Sistema 2 intervenga de forma crítica para corregir los sesgos perceptuales resultantes.
+
+============================================================
