@@ -1,0 +1,16 @@
+asis-90a · 24/9/2026, 09:52:28 · 0:38
+============================================================
+
+PREGUNTA:
+Los antidepresivos tricíclicos aumentan la concentración de noradrenalina. 1. Aumentando el precursor. 2. Inhibiendo la degradación. 3. Bloqueando la recaptación. 4. Aumentando sus metabolitos. 5. Ninguna de las anteriores.
+
+RESPUESTA:
+1. Opción correcta: 3. Bloqueando la recaptación.
+
+2. Por qué las me más son incorrectas: Se descartan las demás opciones debido a que los antidepresivos heterocíclicos tricíclicos actúan inhibiendo de forma directa la bomba recaptadora del neurotransmisor en la terminal presináptica para incrementar su disponibilidad en la hendidura sináptica, a diferencia de los fármacos inhibidores de la monoamino oxidasa (IMAO), cuya función es bloquear la degradación enzimática de las monoaminas, o de aquellos mecanismos que alteran la síntesis de precursores o promueven la acumulación de metabolitos inactivos.
+
+A nivel de la transmisión neuroquímica, los antidepresivos heterocíclicos de primera generación modifican la dinámica de las monoaminas (noradrenalina y serotonina) al impedir su recaptura desde el espacio intersináptico hacia el botón terminal. Este mecanismo primario genera un incremento inmediato del ligando disponible para unirse a los receptores postsinápticos. No obstante, el efecto terapéutico clínico requiere de un segundo efecto conocido como down regulation o regulación a la baja de la densidad y sensibilidad de los receptores pre y postsinápticos, proceso estructural que presenta un período de latencia de 15 a 20 días.
+
+En el cine, la película Requiem for a Dream ilustra los efectos de las intervenciones farmacológicas sobre los sistemas de neurotransmisión, donde la alteración del flujo de monoaminas modifica directamente el comportamiento y la fisiología cerebral. Mediante el uso de montajes rápidos y planos detalle de las pupilas, el filme representa visualmente cómo las moléculas exógenas alteran el equilibrio neuroquímico y la dinámica de las vesículas sinápticas.
+
+============================================================
