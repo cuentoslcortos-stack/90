@@ -1,0 +1,16 @@
+asis-90a · 24/9/2026, 10:06:06 · 0:53
+============================================================
+
+PREGUNTA:
+¿Cuál es el heurístico que evalúa la frecuencia de una clase o la probabilidad de un acontecimiento según la facilidad con la que logran evocarse? 1. Heurístico de representatividad. 2. Heurístico del Sistema 1. 3. Heurístico de accesibilidad. 4. Heurístico del Sistema 2. 5. Heurístico de ajuste y anclaje.
+
+RESPUESTA:
+1. Opción correcta: 3. Heurístico de accesibilidad.
+
+2. Por qué las otras son incorrectas: Se descartan las demás opciones debido a que el heurístico de representatividad evalúa qué tan prototípico es un caso respecto a una categoría; el de ajuste y anclaje realiza estimaciones ajustando un juicio inicial a partir de un rasgo de referencia; mientras que el Sistema 1 y el Sistema 2 constituyen los dos modos o procesadores del modelo de doble vía de la toma de decisiones y no heurísticos específicos.
+
+El heurístico de accesibilidad, teorizado por Daniel Kahneman y Amos Tversky, constituye una regla de decisión rápida mediante la cual las personas evalúan la frecuencia de una clase o la probabilidad de ocurrencia de un acontecimiento basándose en la facilidad con que los ejemplos o recuerdos acuden a su mente. En la toma de decisiones, este atajo mental del Sistema 1 (intuitivo y automático) suele ser útil porque los eventos más frecuentes tienden a recordarse mejor, pero puede generar sesgos predecibles cuando la información recuperada de la memoria está influida por factores de prominencia emocional, cobertura mediática o vivencias recientes.
+
+Un ejemplo claro de este fenómeno se observa en películas como Tiburón (Jaws), de Steven Spielberg, donde los ataques de tiburón se presentan de forma altamente impactante. En la vida real, tras el estreno del filme, las personas percibieron el riesgo de ser atacadas en el mar como sumamente elevado, evitando ingresar al agua. Aunque las estadísticas demuestran que la probabilidad objetiva de sufrir dicho ataque es insignificante en comparación con otros accidentes cotidianos, la facilidad para evocar las imágenes vívidas del largometraje llevó al público a sobreestimar el riesgo real, demostrando cómo opera el heurístico de accesibilidad en la conducta humana.
+
+============================================================
