@@ -1,0 +1,17 @@
+asis-90a · 24/9/2026, 02:08:00 · 1:16
+============================================================
+
+PREGUNTA:
+¿Cuál es la principal crítica al reductionismo genético en el estudio del comportamiento? 1. Que los genes no influyen en la conducta. 2. Que el ambiente es más importante que los genes. 3. Que un fenotipo que un fenotipo nunca es causado únicamente por un genotipo. Repito. 3. Que un fenotipo nunca es causado únicamente por un genotipo. 4. Que la psicología no puede estudiar no puede estudiar conductas animales. Repito. 4. Que la psicología no puede estudiar conductas animales.
+
+RESPUESTA:
+CASO A: Multiple Choice
+
+1. Opción correcta: 3. que un fenotipo nunca es causado únicamente por un genotipo.
+
+2. Por qué las otras son incorrectas: Se descartan las demás opciones porque la biología del comportamiento sostiene desde una concepción monista y evolucionista que los genes influyen en la conducta sin determinarla de forma absoluta, el desarrollo se explica por la interacción recíproca entre genotipo y ambiente sin conceder primacía unidireccional al entorno, y la disciplina utiliza de manera constitutiva el método comparado para estudiar conductas en organismos no humanos.
+
+Fundamentación extendida según el marco teórico de la Cátedra Muzio:
+El enfoque monista psiconeural emergentista asume que las funciones psicológicas emergen de la actividad de subsistemas cerebrales, donde el fenotipo comporta mental es el resultado indispensable de la interacción dinámica entre el genotipo individual y las influencias ambientales ($V_F = V_G + V_A + V_I$). Como señalan los modelos epigenéticos de autores como Gottlieb y Alberch, ningún genotipo determina de forma unívoca o mecánica un rasgo conductual en ausencia de un contexto ontogenético y ambiental específico. En la película Gattaca (Andrew Niccol, 1997), se observa este principio biológico cuando el protagonista, un individuo concebido de manera natural y calificado genéticamente como inferior, logra superar los límites predichos por su perfil de ADN mediante el esfuerzo y el entrenamiento constante. Las herramientas formales del film, como el uso de planos detalle enfocados en la constante eliminación de células muertas y las secuencias de montaje repetitivo de ejercicio físico, enfatizan visualmente la resistencia del fenotipo funcional frente al determinismo genético estricto. La variabilidad en la expresión de rasgos cuantitativos prueba que no existe un programa genético rígido que rija sobre las etapas subsecuentes del desarrollo sin la mediación del entorno.
+
+============================================================
