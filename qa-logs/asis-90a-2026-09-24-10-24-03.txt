@@ -1,0 +1,12 @@
+asis-90a · 24/9/2026, 10:24:03 · 0:27
+============================================================
+
+PREGUNTA:
+En la tomografía computada, a menor densidad del órgano, más oscura parecerá la imagen. Opción 1, verdadero. Opción 2, falso.
+
+RESPUESTA:
+1. Calificación: Verdadero
+
+2. Justificación: La tomografía computada es una técnica neuroanatómica que utiliza una fuente móvil de rayos X para registrar la llegada atenuada del haz mediante detectores, según el grosor y número atómico de las estructuras atravesadas. Por este motivo, el tejido óseo del cráneo se visualiza hiperdenso (blanco) al absorber mayor radiación, mientras que los tejidos de menor densidad como el parénquima cerebral y el líquido cefalorraquídeo se observan en tonalidades hipodensas más oscuras.
+
+============================================================
